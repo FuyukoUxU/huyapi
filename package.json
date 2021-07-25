@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "typings": "./index.d.ts",
   "dependencies": {
     "axios": "^0.21.1"
   },
@@ -10,7 +11,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuhuy09/huyapi.git"
+  },
+  "author": "catcat01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuhuy09/huyapi/issues"
+  },
+  "homepage": "https://github.com/vuhuy09/huyapi#readme"
 }

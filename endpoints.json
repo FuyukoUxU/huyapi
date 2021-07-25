@@ -1,5 +1,5 @@
 {
-    "sfw": {
+    "get": {
         "meme":"/?type=meme",
         "girl":"/?type=gai",
         "boy":"/?type=trai",

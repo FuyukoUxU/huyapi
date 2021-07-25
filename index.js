@@ -6,9 +6,9 @@ class HuyClient {
         constructor() {
           let self = this
           self.get = {};
-        Object.keys(endpoints.sfw).forEach(async (endpoint) => {
+        Object.keys(endpoints.get).forEach(async (endpoint) => {
                 self.get[endpoint] = async function () {
-                    var res = await axios.get(baseURL+endpoints.sfw[endpoint])
+                    var res = await axios.get(baseURL+endpoints.get[endpoint])
                     return res.data ? res.data : undefined;
                 }
         })

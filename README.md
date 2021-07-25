@@ -38,9 +38,8 @@ npm i huyapi
 | `shot` | (gif) |
 
 ## Examples
-
-```js
 Await/Async
+```js
 const HuyAPI = require("huyapi")
 const image = new HuyAPI
 

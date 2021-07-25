@@ -6,7 +6,7 @@
 [![NPM](https://nodei.co/npm/huyapi.png)](https://nodei.co/npm/huyapi/)
 
 # HuyAPI
-A simple photo api
+A simple image api
 
 ## Installation
 ```

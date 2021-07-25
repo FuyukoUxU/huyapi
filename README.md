@@ -36,3 +36,24 @@ npm i huyapi
 | `sad` | (gif) |
 | `run` | (gif) |
 | `shot` | (gif) |
+
+## Examples
+
+```js
+Await/Async
+const HuyAPI = require("huyapi")
+const image = new HuyAPI
+
+async function test() {
+  console.log(await image.get.meme());
+}
+
+test();
+```
+Return: 
+```js
+{
+    "author": "中村藍子#1204",
+    "url": "https://media.discordapp.net/attachments/860374248275181598/860391071967215676/170408311_394610311891547_2511268824234698070_n.png"
+}
+```

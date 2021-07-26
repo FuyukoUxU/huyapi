@@ -1,6 +1,6 @@
 {
   "name": "huyapi",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "",
   "main": "index.js",
   "typings": "./index.d.ts",
@@ -15,6 +15,15 @@
     "type": "git",
     "url": "git+https://github.com/vuhuy09/huyapi.git"
   },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "api",
+    "image",
+    "image api",
+    "bot",
+    "huyapi"
+  ],
   "author": "catcat01",
   "license": "ISC",
   "bugs": {
